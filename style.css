@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: 'Barlow', sans-serif;
+    background-color: black;
+    
+}
+
+.rua{
+    background-image: url(imagens/img01.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ;
+    position: relative;
+}
+
+.rua .conteudo{
+    border: none;
+    background-color: #585858;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px 20px ;
+    width: 36vw;
+    display: inline-block;
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    letter-spacing: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto{
+    padding: 60px;
+}
+
+.texto h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.texto p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.texto#branco{
+    background-color: #F4F4F4;
+    color: #666666;
+
+}
+
+
+
+
+
+
